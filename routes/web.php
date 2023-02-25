@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::demo('/demo', function(){
+    return '<h1>Trang chủ</h1>';
+});
